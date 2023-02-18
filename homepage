@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="https:\\cdnjs.cloudfare.cm\ajax\libs\font-awesome\4.7.0.\css\font-awesome.min.css">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Parlor management System</title>
+    </head>
+    <body>
+        <nav class="nav bar">
+            <div class="burger">
+                <div class="layer 1"></div>
+                <div class="layer 1"></div>
+                <div class="layer 1"></div>
+            </div>
+            <div>
+                <div class="logo">
+                    <span class="logo-text"><i class="fa fa-session" style="margin-right:0.1em"></i>Parlor<span style="color:#f095;font-size:1.em";>Management</span>
+
+                </div>
+                <div class="menu bar">
+                    <ul class="list">
+                        <li class="list-items"><a href="#">Home</a></li>
+                        <li class="list-items"><a href="#">Events</a></li>
+                        <li class="list-items"><a href="#">Pricing</a></li>
+                        <li class="list-items"><a href="#">About us</a></li>
+                    </ul>
+                </div>
+                <div class="cart">
+                    <i class="fa fa shopping-cart fa-1x "></i>
+                    <div class="number of events"><span class="noi">0</span></div>
+                </div>
+            </div>
+        </nav>
+        </section>
+        <div class="cart-sidebar">
+            <div class="cart">
+                <span class="close-cart">
+                <i class="fa fa-times"></i>
+                </span>
+                <h2>your cart</h2>
+            </div>
+        </div>
+    </body>
+
+</html>
