@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Booking Form</title>
+	<link rel="stylesheet" href="booking.css">
+	<style type="text/css">
+	body{
+	background-image: url(bck.jpg);
+	}
+</head>
+	
+	<div class="booking-form">
+	<h2>Book an Event</h2>
+	<form action="#" method="post">
+		<div class="form-group">
+			<label for="event-id">Event ID:</label>
+			<input type="number" id="event-id" name="event-id" required>
+		</div>
+		<div class="form-group">
+			<label for="booked-date">Booked Date:</label>
+			<input type="date" id="booked-date" name="booked-date" required>
+		</div>
+		<div class="form-group">
+			<label for="participant-name">Participant Name:</label>
+			<input type="text" id="participant-name" name="participant-name" required>
+		</div>
+		<div class="form-group">
+			<label for="participant-email">Participant Email:</label>
+			<input type="email" id="participant-email" name="participant-email" required>
+		</div>
+		<div class="form-group">
+			<label for="participant-phone">Participant Phone:</label>
+			<input type="number" id="participant-phone" name="participant-phone" required.
+		</div>
+		<br><br>
+		<div class="form-group">
+			<input type="submit" value="Book Now">
+		</div>
+	</form>
+	</div>
+	</body>
+</html>
+	
+
+	
+	

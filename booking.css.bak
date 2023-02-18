@@ -1,0 +1,44 @@
+
+
+.booking-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-image: bck.jpg;
+}
+
+.booking-form h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color:red;
+}
+
+.form-group label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color:orange;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  color:black;
+}
+
+.form-group input[type="submit"] {
+  background-color: green;
+  color: black;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: #fdd835;
+}
